@@ -17,3 +17,14 @@ EXPOSE 8080
 # ファイル自動生成
 # go run -mod=mod github.com/99designs/gqlgen generate
 # go run server.go
+
+
+
+
+
+#{
+#  getStudents {
+#    name
+#    age
+#  }
+#}
