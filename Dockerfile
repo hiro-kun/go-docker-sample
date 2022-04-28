@@ -1,8 +1,15 @@
-FROM golang:1.15.2-alpine
+FROM golang:latest
 
-RUN apk update && apk add git
 RUN mkdir /go/src/app
 
 WORKDIR /go/src/app
 
 ADD . /go/src/app
+
+EXPOSE 8080
+
+# mkdir gqlgen-todos
+# cd gqlgen-todos
+# go mod init github.com/ono-hiroshi/gqlgen-todos
+# go get github.com/99designs/gqlgen
+# go run github.com/99designs/gqlgen init
