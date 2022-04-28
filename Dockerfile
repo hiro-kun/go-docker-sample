@@ -13,3 +13,6 @@ EXPOSE 8080
 # go mod init github.com/ono-hiroshi/gqlgen-todos
 # go get github.com/99designs/gqlgen
 # go run github.com/99designs/gqlgen init
+# ./server.go
+# ファイル自動生成
+# go run github.com/99designs/gqlgen
