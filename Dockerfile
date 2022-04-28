@@ -15,5 +15,5 @@ EXPOSE 8080
 # go run github.com/99designs/gqlgen init
 # ./server.go
 # ファイル自動生成
-# go run github.com/99designs/gqlgen
 # go run -mod=mod github.com/99designs/gqlgen generate
+# go run server.go
